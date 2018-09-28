@@ -1,0 +1,18 @@
+#N canvas 154 107 327 108 10;
+#X msg -2 51 0;
+#X msg 29 52 1;
+#X obj -4 -2 inlet;
+#X obj 14 77 outlet;
+#X obj -4 20 sel 0 1;
+#X text 44 -2 turns 0 into 1 and 1 into 0 \, all else passes;
+#X obj 80 21 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0 1
+;
+#X connect 0 0 3 0;
+#X connect 0 0 6 0;
+#X connect 1 0 3 0;
+#X connect 1 0 6 0;
+#X connect 2 0 4 0;
+#X connect 4 0 1 0;
+#X connect 4 1 0 0;
+#X connect 4 2 3 0;
+#X coords 0 -1 1 1 35 17 1 60 20;
